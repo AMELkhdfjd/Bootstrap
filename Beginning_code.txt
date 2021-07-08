@@ -1,0 +1,26 @@
+go to your repository in the powershell
+npm start 
+.gitignore and write node_modules in it 
+-------To install bootstrap
+npm install bootstrap@4.0.0 --save
+npm install jquery@3.3.1 popper.js@1.12.9 --save
+
+add just after the head in index.html every time in making a web project
+<!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+
+Include the js classes provided by bootstrap
+before the body tag
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
