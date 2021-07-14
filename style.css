@@ -63,3 +63,9 @@ body{
 .right-button{
     padding: 0px 0px 0px 0px;
 }
+
+#carouselButton{
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
