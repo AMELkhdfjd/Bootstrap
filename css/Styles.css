@@ -62,3 +62,9 @@ body {
 
 .modal-content .modal-body {
   background-color: #D1C4E9; }
+
+.login_button {
+  color: white; }
+
+.fa-sign-in {
+  color: white; }
