@@ -122,10 +122,12 @@
 
                     data-placement = "bottom" href="#card">
                     Reserve Table</a>-->
-                  
+                       <!--Adding the button reserve table without the script code
                         <a data-toggle="modal" role="button" class="btn btn-sm btn-warning btn-block " data-target="#reserve">
-                         Reserve Table</a>
+                         Reserve Table</a>-->
                     
+                    <a  role="button" class="btn btn-sm btn-warning btn-block " id="reserve_button" >
+                            Reserve Table</a>
                    
                 </div>
             </div>
@@ -534,13 +536,20 @@
          });
 
      </script>
-     <!--<script>
+     <script>
          $(document).ready(function(){
              $('#login_botton').click(function(){
                  $('#loginModal').modal('show');
              });
          });
-     </script>-->
+     </script>
+      <script>
+        $(document).ready(function(){
+            $('#reserve_button').click(function(){
+                $('#reserve').modal('show');
+            });
+        });
+    </script>
 
 </body>
 
