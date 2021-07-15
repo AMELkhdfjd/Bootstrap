@@ -57,8 +57,8 @@ body {
   background-color: #512DA8; }
   .modal-content .modal-header .close {
     color: floralwhite; }
-    .modal-content .modal-header .close .h4 {
-      color: floralwhite; }
+  .modal-content .modal-header .modal-title {
+    color: floralwhite; }
 
 .modal-content .modal-body {
-  background-color: #9575CD; }
+  background-color: #D1C4E9; }
